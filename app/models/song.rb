@@ -16,15 +16,7 @@ class Song < ActiveRecord::Base
 
       self.artist = drake
 
-
-      # drake = drake.songs.build(:name => "Drake")
-      # drake.save
-
-      #  drake = Artist.new(:id, :name => "Drake")
-      #  self.artist = "Drake"
-      #  artist = self.new(name: "Drake")
-      # song = Song.new(name: "Drake")
-    # self.artist(name: "Drake")
+  
    end
 
 end
